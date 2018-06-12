@@ -2,7 +2,7 @@
 
 [![npm](https://img.shields.io/npm/v/vue-rangedate-picker.svg)](https://www.npmjs.com/package/vue-rangedate-picker) [![vue2](https://img.shields.io/badge/vue-2.x-brightgreen.svg)](https://vuejs.org/) [![travis](https://img.shields.io/travis/bliblidotcom/vue-rangedate-picker.svg)](https://travis-ci.org/bliblidotcom/vue-rangedate-picker) [![codecov](https://codecov.io/gh/bliblidotcom/vue-rangedate-picker/branch/master/graph/badge.svg)](https://codecov.io/gh/bliblidotcom/vue-rangedate-picker) [![Codacy Badge](https://api.codacy.com/project/badge/Grade/5afaab93c27145f0bec1686beb9b8904)](https://www.codacy.com/app/bliblidotcom/vue-rangedate-picker?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=bliblidotcom/vue-rangedate-picker&amp;utm_campaign=Badge_Grade)
 
-> Date picker with range selection
+> [Notice: This is a forked repository] Date picker with range selection
 
 ## Demo
 
@@ -11,7 +11,7 @@
 ## Installation
 
 ```bash
-npm install --save vue-rangedate-picker
+npm install --save simmatrix/vue-rangedate-picker
 ```
 
 ## Usage
@@ -30,10 +30,7 @@ Vue.use(VueRangedatePicker)
 ```html
 <!-- Include after Vue -->
 <!-- Local files -->
-<script src="vue-rangedate-picker/dist/vue-rangedate-picker.min.js"></script>
-
-<!-- From CDN -->
-<script src="https://unpkg.com/vue-rangedate-picker"></script>
+<script src="vue-rangedate-picker/dist/vue-rangedate-picker.js"></script>
 ```
 
 ### Available Events
@@ -134,7 +131,7 @@ You can pass these below props to `<rangedate-picker :props="props"></rangedate-
   }
   ```
 
-+ **initRange**
++ **dateRange**
 
   *Description* : -
 
